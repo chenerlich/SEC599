@@ -191,8 +191,8 @@ build_yara(){
 
 build_volatility(){
     wget $VOLATILITY_URL
-    tar xvf volatility-2.4.tar.gz
-    cd volatility-2.4/
+    tar xvf volatility-2.6.tar.gz
+    cd volatility-master/
     $SUDO python setup.py build
     $SUDO python setup.py install
     return 0
